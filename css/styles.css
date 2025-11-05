@@ -70,9 +70,8 @@ a {
   padding-top: 24px;
   padding-bottom: 24px;
   align-items: center;
- 
-  
-
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .menu {
@@ -88,13 +87,6 @@ a {
   gap: 40px;
   padding: 0 15px;
 }
-
-.link {
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
-
-
 
 .first-link_adress {
   display: flex;
@@ -113,14 +105,16 @@ a {
     text-transform: uppercase;
     color: #4d5ae5;
     margin-right: 76px;
-    padding: 0 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
   .link {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding: 0 15px;
+    padding-top: 24px;
+    padding-bottom: 24px;
   }
 
   .link:hover, .link:focus {
@@ -129,19 +123,16 @@ a {
 
   .adress{
     font-style: normal;
-    padding: 0 15px;
   }
 
   .link_adress{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    padding: 0 15px;
   }
 
   .link_adress:hover, .link_adress:focus {
     color: #404bbf;
-    padding: 0 15px;
   }
 /* #endregion header */
 
